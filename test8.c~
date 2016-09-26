@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include<unistd.h>
+main(){
+  puts("system()전");
+  system("is");
+  puts("system()후");
+}
